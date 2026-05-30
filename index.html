@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./lib-modal/hystmodal.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Kanban Доска</title>
+  </head>
+  <body>
+    <h1>Kanban Доска</h1>
+
+    <section class="kanban-container">
+      <figure class="column" data-status="todo">
+        <section class="column-header">
+          <span>To Do</span>
+          <span class="task-count">0</span>
+        </section>
+        <section class="add-task">+ Добавить задачу</section>
+        <section class="write-task">
+          <input type="text" class="write-task-input" />
+          <section class="add-new-task">+ Добавить задачу</section>
+        </section>
+        <section class="all-trash-btn">
+          <span>Очистить все</span>
+          <img src="./img/trash.png" alt="trash-icon" class="trash-icon" />
+        </section>
+      </figure>
+
+      <figure class="column" data-status="doing">
+        <section class="column-header">
+          <span>In Progress</span>
+          <span class="task-count">0</span>
+        </section>
+        <section class="add-task">+ Добавить задачу</section>
+        <section class="write-task">
+          <input type="text" class="write-task-input" />
+          <section class="add-new-task">+ Добавить задачу</section>
+        </section>
+        <section class="all-trash-btn">
+          <span>Очистить все</span>
+          <img src="./img/trash.png" alt="trash-icon" class="trash-icon" />
+        </section>
+      </figure>
+
+      <figure class="column" data-status="done">
+        <section class="column-header">
+          <span>Done</span>
+          <span class="task-count">0</span>
+        </section>
+        <section class="add-task">+ Добавить задачу</section>
+        <section class="write-task">
+          <input type="text" class="write-task-input" />
+          <section class="add-new-task">+ Добавить задачу</section>
+        </section>
+        <section class="all-trash-btn">
+          <span>Очистить все</span>
+          <img src="./img/trash.png" alt="trash-icon" class="trash-icon" />
+        </section>
+      </figure>
+    </section>
+    
+
+    <script src="./lib-modal/hystmodal.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
